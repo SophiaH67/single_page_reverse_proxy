@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/marnixah/single_page_reverse_proxy/issues"
   },
-  "homepage": "https://github.com/marnixah/single_page_reverse_proxy#readme"
+  "homepage": "https://github.com/marnixah/single_page_reverse_proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
