@@ -1,5 +1,6 @@
-# single_page_reverse_proxy
-Serves a single target page no matter what GET/POST/whatever parameters are specified
+# Single Page Reverse Proxy
+
+Reverse proxies a single target page no matter what parameters or url's are requested.
 
 # Setup
 To run this project, simply run
@@ -9,5 +10,5 @@ docker run \
     -p <port number>:<port number> \
     -e PORT=<port number> \
     -e URL=<url to reverse proxy> \
-    marnixah/single_page_reverse_proxy:latest
+    SophiaH67/single_page_reverse_proxy:latest
 ```
